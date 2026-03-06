@@ -18,8 +18,10 @@ Se descargarán automáticamente en tu carpeta global de Claude (`~/.claude/comm
 
 | Skill | Descripción | Instalación |
 |---|---|---|
-| **[delafu-mode](./skills/delafu-mode/README.md)** | Bootstrap técnico Enterprise. Configura repositorios nuevos o desestructurados con estándares de seguridad, trazabilidad (Changelog, ADRs) y calidad de código. | `curl -sL https://raw.githubusercontent.com/vasallo94/skills/main/install.sh \| bash -s -- delafu-mode` |
-| **[mcp-builder](./skills/mcp-builder/README.md)** | Guía comprensiva y metodologías (4 Fases) para el desarrollo, revisión y evaluación de servidores de calidad para el Model Context Protocol (MCP). | `curl -sL https://raw.githubusercontent.com/vasallo94/skills/main/install.sh \| bash -s -- mcp-builder` |
+| **[mcp-builder](./skills/mcp-builder/README.md)** | Guía comprensiva y metodologías (4 Fases) para el desarrollo, revisión y evaluación de servidores de calidad para el Model Context Protocol (MCP). | `curl -sL https://raw.githubusercontent.com/Vasallo94/vasallo94-skills/main/install.sh | bash -s -- mcp-builder` |
+
+### 🔄 Actualización
+Para mantener una skill actualizada con las últimas mejoras, simplemente **vuelve a ejecutar su comando de instalación**. El script descargará la versión más reciente de la rama `main` y sobrescribirá tu copia local.
 
 > *Más skills portadas desde el vault de Obsidian próximamente.*
 
