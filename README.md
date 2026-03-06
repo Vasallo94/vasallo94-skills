@@ -9,7 +9,7 @@ Estas skills están diseñadas siguiendo estándares de la industria (DevSecOps,
 Para instalar una skill, usa el siguiente comando y pasa el nombre de la skill al final:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/vasallo94/skills/main/install.sh | bash -s -- <nombre_de_la_skill>
+curl -sL https://raw.githubusercontent.com/Vasallo94/habilidades-especiales-ai/main/install.sh | bash -s -- <nombre_de_la_skill>
 ```
 
 Se descargarán automáticamente en tu carpeta global de Claude (`~/.claude/commands/`) para que estén disponibles en todos tus proyectos.
@@ -18,7 +18,7 @@ Se descargarán automáticamente en tu carpeta global de Claude (`~/.claude/comm
 
 | Skill | Descripción | Instalación |
 |---|---|---|
-| **[mcp-builder](./skills/mcp-builder/README.md)** | Guía comprensiva y metodologías (4 Fases) para el desarrollo, revisión y evaluación de servidores de calidad para el Model Context Protocol (MCP). | `curl -sL https://raw.githubusercontent.com/Vasallo94/vasallo94-skills/main/install.sh | bash -s -- mcp-builder` |
+| **[mcp-builder](./skills/mcp-builder/README.md)** | Guía comprensiva y metodologías (4 Fases) para el desarrollo, revisión y evaluación de servidores de calidad para el Model Context Protocol (MCP). | `curl -sL https://raw.githubusercontent.com/Vasallo94/habilidades-especiales-ai/main/install.sh | bash -s -- mcp-builder` |
 
 ### 🔄 Actualización
 Para mantener una skill actualizada con las últimas mejoras, simplemente **vuelve a ejecutar su comando de instalación**. El script descargará la versión más reciente de la rama `main` y sobrescribirá tu copia local.
